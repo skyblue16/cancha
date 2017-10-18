@@ -1,0 +1,67 @@
+body{
+    margin: 0 auto;
+    /*Le daremos estos valores a body asi limpiamos nuestro archivo y nada nos afectara nuestro código*/
+}
+.caja-cancha{
+    width: 900px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #11F344;
+    z-index: -1; 
+    top:150px;
+}
+#base{
+	position: absolute;
+	border: 3px solid white;
+	width: 870px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 350px;
+    left: 12px;
+    top: 22px;
+}
+#rectangulo{
+	position: absolute;
+	width: 70px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 150px;
+    border: 3px solid white;
+    left: 12px;
+    top: 130px;
+}
+#rectangulo2{
+	position: absolute;
+	width: 70px;/*Los valores se modifican de acuerdo a nuestra pantalla*/
+    height: 150px;
+    border: 3px solid white;
+    right: 12px;
+    top: 130px;
+}
+#circulo{
+	 width: 200px;
+    height: 200px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 95px;
+    right: 370px;
+    border: 3px solid white;
+}
+.bolita{
+	position: absolute;
+	color: white;
+	top: 70px;
+	left: 450px;
+}
+.bolita2{
+	position: absolute;
+	color: white;
+	top: 250px;
+	left: 790px;
+}
+.bolita3{
+	position: absolute;
+	color: white;
+	top: 135px;
+	left: 80px;
+}
+	
